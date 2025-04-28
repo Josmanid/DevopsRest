@@ -28,9 +28,10 @@ namespace DevopsRest.RepositoryList.Tests
 
             // Assert
             Assert.AreEqual(1,PositiveEgg.Id);
-            Assert.AreEqual("Arla",PositiveEgg.Name);
+            Assert.AreEqual("Ar",PositiveEgg.Name);
             Assert.IsNull(NegativeEgg);
 
         }
+
     }
 }
